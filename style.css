@@ -296,6 +296,35 @@ h9 {
     /* margin: 20px auto 20px auto; */
     padding: 10px 10px 10px 10px;
 }
+/* https://opensource.apple.com/source/WebCore/WebCore-7602.2.14.0.5/css/mediaControls.css.auto.html */
+/* https://stackoverflow.com/questions/17678302/how-to-hide-full-screen-button-of-the-video-tag-in-html5 */
+video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
+video::-webkit-media-controls-current-time-display{
+    display: none;
+}
+video::-webkit-media-controls-time-remaining-display {
+    display: none;
+}
+video::-webkit-media-controls-toggle-closed-captions-button {
+    display: none;
+}
+video::-webkit-media-controls-volume-slider {
+    display: none;
+}
+/* video::-webkit-media-controls-mute-button {
+    display: none;
+} */
+video::-webkit-media-controls-panel {
+    /* background-image: none; */
+    background-image: linear-gradient(#ffffff00, #3f3f3f8d);
+}
+/* video::-webkit-media-controls-timeline { */
+    /* background-color: initial; */
+    /* border: initial; */
+    /* color: red; */
+/* } */
 
 /* --------------------------------------- */
 

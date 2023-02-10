@@ -39,10 +39,6 @@
 
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="js/opentab.js"></script>
-    <script>
-        var video = document.getElementById ("videoElement");
-        video.addEventListener ("loadedmetadata", function () { video.play (); });
-    </script>
 </head>
 
 <body onload="document.getElementById('defaultOpen').click(); document.getElementById('defaultOpen2').click();">
@@ -75,7 +71,7 @@
                 </div>
                 <div class="row" style="margin-top:0rem; margin-left: auto; margin-right: auto;">
                     <div class="col-md">
-                        <h9>* equal contributions</h9>
+                        <h9>* Equal advising</h9>
                         <div id="affiliation"><img width="20%" src="./assets/nvidialogo.png"></div>
                     </div>
                 </div>
@@ -84,7 +80,6 @@
             <div class="buttons">
                 <a href="TODO" target="_blank" class="btn btn-primary my-2">Paper (arXiv)</a>
                 <a href="" target="_blank" class="btn btn-primary my-2">Code (coming soon)</a>
-                <!-- <a href="" target="_blank" class="btn btn-primary my-2">Video</a> -->
             </div>
 
             <div class="container">
@@ -117,12 +112,6 @@
             Our work opens up new algorithmic opportunities for developing efficient nonlinear diffusion models on a large scale.
         </p>
 
-        <!-- Summary video -->
-        <!-- <hr>
-        <h5>Video</h5>
-        <div style="text-align: center;">
-            <video width=100% class="large_video" controls><source src="assets/video.mp4" type="video/mp4">X</video>
-        </div> -->
 
         <hr>
         <h5>Schrödinger Bridge as Interpretable Conditional Diffusion Model</h5>
@@ -137,8 +126,8 @@
                     <img src="assets/diagram.png" style="width: 100%; padding-top: 30px;">
                 </div>
                 <div class="column-method-right">
-                    <!-- <video src="assets/output.mp4" style="width: 100%;"> -->
-                    <video width=100% autoplay loop muted controls><source src="assets/generation.mp4" type="video/mp4">X</video>
+                    <!-- https://stackoverflow.com/questions/54458516/how-to-disable-picture-in-picture-mode-on-html5-video -->
+                    <video width=100% autoplay loop muted controls disablePictureInPicture controlsList="noplaybackrate" id="vid"><source src="assets/generation2.mp4" type="video/mp4">X</video>
                 </div>
             </div>
             <div class="row row-method" style="margin-top: 0px;">
@@ -310,24 +299,6 @@
             </p>
         </div>
     </footer>
-
-    <!-- Default Statcounter code for Magic3D
-    https://deepimagination.cc/Magic3D/ -->
-    <!-- <script type="text/javascript">
-    var sc_project=12819112;
-    var sc_invisible=1;
-    var sc_security="71c1464a";
-    </script>
-    <script type="text/javascript"
-    src="https://www.statcounter.com/counter/counter.js"
-    async></script>
-    <noscript><div class="statcounter"><a title="Web Analytics"
-    href="https://statcounter.com/" target="_blank"><img
-    class="statcounter"
-    src="https://c.statcounter.com/12819112/0/71c1464a/1/"
-    alt="Web Analytics"
-    referrerPolicy="no-referrer-when-downgrade"></a></div></noscript> -->
-    <!-- End of Statcounter Code -->
 
 </body>
 
