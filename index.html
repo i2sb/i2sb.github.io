@@ -58,10 +58,10 @@
                 </div>
 
                 <div class="row row-author">
-                    <div class="col-md author"><a href="https://scholar.google.com/citations?user=dG9MV7oAAAAJ" target="_blank">Evangelos A. Theodorou</a><sup>1</sup></div>
+                    <div class="col-md author"><a href="https://sites.gatech.edu/acds/people/" target="_blank">Evangelos A. Theodorou</a><sup>1</sup></div>
                     <!-- <div class="col-md author"><a href="https://sites.gatech.edu/acds/" target="_blank">Evangelos A. Theodorou</a><sup>*</div</sup>> -->
-                    <div class="col-md author"><a href="https://weilinie.github.io/" target="_blank">Weili Nie</a><sup>*,2</sup></div>
-                    <div class="col-md author"><a href="http://tensorlab.cms.caltech.edu/users/anima/" target="_blank">Anima Anandkumar</a><sup>*,2,3</sup></div>
+                    <div class="col-md author"><a href="https://weilinie.github.io/" target="_blank">Weili Nie</a><sup>†,2</sup></div>
+                    <div class="col-md author"><a href="http://tensorlab.cms.caltech.edu/users/anima/" target="_blank">Anima Anandkumar</a><sup>†,2,3</sup></div>
                 </div>
 
                 <div class="affil">
@@ -71,21 +71,21 @@
                 </div>
                 <div class="row" style="margin-top:0rem; margin-left: auto; margin-right: auto;">
                     <div class="col-md">
-                        <h9>* Equal advising</h9>
+                        <h9><sup style="color: #b2b2b2;">†</sup> Equal advising</h9>
                         <div id="affiliation"><img width="20%" src="./assets/nvidialogo.png"></div>
                     </div>
                 </div>
             </div>
 
             <div class="buttons">
-                <a href="TODO" target="_blank" class="btn btn-primary my-2">Paper (arXiv)</a>
+                <a href="https://arxiv.org/abs/2302.05872" target="_blank" class="btn btn-primary my-2">Paper (arXiv)</a>
                 <a href="" target="_blank" class="btn btn-primary my-2">Code (coming soon)</a>
             </div>
 
             <div class="container">
                 <div class="row" id="pitch">
                     <p style="text-align: center;">
-                        I<sup>2</sup>SB is a new class of conditional diffusion models that directly construct diffusion bridges between two given distributions.
+                        I<sup style="color: white;">2</sup>SB is a new class of conditional diffusion models that directly construct diffusion bridges between two given distributions.
                         It yields interpretable generation, enjoys better sampling efficiency, and sets new records on many image restoration tasks.
                     </p>
                 </div>
@@ -118,8 +118,7 @@
         <!-- <h5>Schrödinger Bridge as Interpretable Conditional Diffusion Model</h5> -->
         <div class="container">
             <p>
-                Rather than generating images from random noise as in prior conditional or inverse-guided diffusion models, I<sup>2</sup>SB  directly learns the diffusion bridges between two given distribution, <i>e.g.</i>, degraded and clean image distributions.
-                Hence, I<sup>2</sup>SB yields more interpretable generation that is effective for image restoration.
+                Rather than generating images from random noise as in prior conditional or inverse-guided diffusion models, I<sup>2</sup>SB  directly learns the diffusion bridges between two given distribution, <i>e.g.</i>, degraded and clean image distributions, yielding more interpretable generation that is effective for image restoration.
             </p>
             <div class="row row-method">
                 <div class="column-method-left">
@@ -150,8 +149,8 @@
         <div class="container">
             <p>
                 We validate I<sup>2</sup>SB in solving various image restoration problems on ImageNet 256x256.
-                I<sup>2</sup>SB surpasses standard conditional diffusion models in many tasks and matches the performance of diffusion-based inversed models (<i>e.g.</i>, DDRM) without knowing the corruption operators at both training and generation.
-                See <a href="https://arxiv.org/abs/TODO" target="_blank">our paper</a> for the quantitative results.
+                I<sup>2</sup>SB surpasses standard conditional diffusion models in many tasks and matches the performance of diffusion-based inversed models (<i>e.g.</i>, DDRM) without knowing the corruption operators in both training and generation.
+                See <a href="https://arxiv.org/abs/2302.05872" target="_blank">our paper</a> for the quantitative results.
             </p>
             <p style="text-align: center; font-size: 90%; line-height: 1.25em; color: rgb(150, 150, 150); ">
                 Clink the tabs below to visualize reconstruction results of each restoration task.<br>
@@ -275,14 +274,14 @@
                 <div class="paper_pic"><img src="assets/preview.jpg" height="250"></div>
                 <div class="paper_content">
                     <br>
-                    <h4>arXiv preprint: <a href="TODO" target="_blank">https://arxiv.org/abs/TODO</a></h4>
+                    <h4>arXiv preprint: <a href="https://arxiv.org/abs/2302.05872" target="_blank">https://arxiv.org/abs/2302.05872</a></h4>
                     <h4>code: coming soon</h4>
                     <h4>BibTex:</h4>
                     <div id="citation">
                         @article{liu2023i2sb,<br>
                           &nbsp;&nbsp;title={I{$^2$}SB: Image-to-Image Schr{\"o}dinger Bridge},<br>
                           &nbsp;&nbsp;author={Liu, Guan-Horng and Vahdat, Arash and Huang, De-An and Theodorou, Evangelos A and Nie, Weili and Anandkumar, Anima},<br>
-                          &nbsp;&nbsp;journal={arXiv preprint arXiv:TODO},<br>
+                          &nbsp;&nbsp;journal={arXiv preprint arXiv:2302.05872},<br>
                           &nbsp;&nbsp;year={2023},<br>
                         }
                     </div>
